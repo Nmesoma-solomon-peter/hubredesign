@@ -1,0 +1,40 @@
+.section-2{
+    background-color: #F6F9FC;
+    /* align-items: center;
+    justify-content: center;  */
+}
+.Intro__heading{
+    top:69px;
+    Left:300px;
+    margin-left: 19%;
+
+}
+.introh3{
+    font-size: 140%;
+    color: #2E475D;
+    font-weight: bold;
+    margin-bottom: 3%;
+    margin-left: 7%;
+}
+.intropara{
+    font-size:115%;
+    font-weight: 100;
+}
+.intro_button{
+    margin-top: 2%;
+    margin-left: 40%;
+
+}
+
+@media (max-width:1028px) {
+    .section-2{
+        justify-content: center;
+        text-align: left;
+        align-items: center;
+        margin: auto;
+    }
+    .sec2__btn{
+        margin-top: 20px;
+    }
+    
+}

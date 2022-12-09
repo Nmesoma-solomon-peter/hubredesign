@@ -1,0 +1,38 @@
+.section4{
+    background-color: #fff;
+    color: #2E475D;
+}
+.sec4h3{
+    color: #2E475D;
+    font-weight: 700;
+}
+.sec4p{
+    width: 330px;
+}
+.logo__row{
+    justify-content: center;
+    align-items: center;
+}
+.part2{
+    justify-content: center;
+    align-items: center;
+}
+.part2__h4{
+    font-weight: 600;
+}
+.sec4__humanimage{
+    width: 300px;
+    margin-left: 180px;
+}
+.part2__btn{
+    margin-left: 0;
+}
+
+@media (max-width:1028px) {
+    .sec4__humanimage{
+        /* width: 100%; */
+        display: block;
+        margin-left: 10px;
+    }
+    
+}
