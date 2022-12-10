@@ -1,8 +1,8 @@
-import MarketingHub_Icon  from '../assets/images/MarketingHub_Icon.png';
-import ServiceHub_Icon from '../assets/images/ServiceHub_Icon.png';
-import SalesHub_Icon from '../assets/images/SalesHub_Icon.png';
-import cms_Icon from '../assets/images/cms_Icon.png';
-import OperationsHub_Icon from '../assets/images/OperationsHub_Icon.png';
+// import MarketingHub_Icon  from '../assets/images/MarketingHub_Icon.png';
+// import ServiceHub_Icon from '../assets/images/ServiceHub_Icon.png';
+// import SalesHub_Icon from '../assets/images/SalesHub_Icon.png';
+// import cms_Icon from '../assets/images/cms_Icon.png';
+// import OperationsHub_Icon from '../assets/images/OperationsHub_Icon.png';
 
 const contents = [
     {
