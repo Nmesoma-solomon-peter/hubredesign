@@ -1,5 +1,14 @@
 import React from 'react'
 import './Section4.css'
+import wwf from '../assets/images/wwf.png'
+import trello from '../assets/images/trello.png'
+import reddit from '../assets/images/reddit.png'
+import soundcloud from '../assets/images/soundcloud.png'
+import ww from '../assets/images/ww.png'
+import momentive from '../assets/images/momentive.png'
+import doordash from '../assets/images/doordash.png'
+import eventbrite from '../assets/images/eventbrite.png'
+import womanhead from '../assets/images/womanhead.png'
 
 function Section4() {
     return (
@@ -13,31 +22,31 @@ function Section4() {
                 <div className='col col-md-7 '>
                     <div className='d-flex logo__row row row-cols-2 row-cols-sm-2 row-cols-md-4 g-3'>
                         <div>
-                            <img src='/src/assets/images/Rectangle_1-removebg-preview 1.png' alt=' ' />
+                            <img src={wwf} alt=' wwf' />
                         </div>
                         <div>
-                            <img src='/src/assets/images/Rectangle_1__1_-removebg-preview 1.png' alt=' ' />
+                            <img src={trello} alt=' trello' />
                         </div>
                         <div>
-                            <img src='/src/assets/images/Rectangle_1__2_-removebg-preview 1.png' alt=' ' />
+                            <img src={reddit} alt=' reddit' />
                         </div>
                         <div>
-                            <img src='/src/assets/images/Rectangle_1__3_-removebg-preview 1.png' alt=' ' />
+                            <img src={ww} alt='ww ' />
                         </div>
                     </div>
 
                     <div className='d-flex logo__row row row-cols-2 row-cols-sm-2 row-cols-md-4 g-3'>
                         <div >
-                            <img src='/src/assets/images/Rectangle_1__4_-removebg-preview 1.png' alt=' ' />
+                            <img src={soundcloud} alt='soundcloud ' />
                         </div>
                         <div>
-                            <img src='/src/assets/images/Rectangle_1__5_-removebg-preview 1.png' alt=' ' />
+                            <img src={momentive} alt=' ' />
                         </div>
                         <div>
-                            <img src='/src/assets/images/Rectangle_1__6_-removebg-preview 1.png' alt=' ' />
+                            <img src={doordash} alt=' ' />
                         </div>
                         <div>
-                            <img src='/src/assets/images/Rectangle_1__7_-removebg-preview 1.png' alt=' ' />
+                            <img src={eventbrite} alt=' ' />
                         </div>
                     </div>
                 </div>
@@ -56,7 +65,7 @@ function Section4() {
                     </div>
                 </div>
                 <div className='col col-md-6'>
-                    <img src='/src/assets/images/_cta_contentblock_headshots_headshot_6 1.png' className='sec4__humanimage mt-5' />
+                    <img src={womanhead} className='sec4__humanimage mt-5' />
                 </div>
             </div>
         </div>

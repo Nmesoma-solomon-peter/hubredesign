@@ -1,5 +1,11 @@
 import React from 'react'
 import './Section3.css'
+import Group from '../assets/images/Group.png'
+import hubspotacademy from '../assets/images/hubspotacademy.png'
+import hubspotblogs from '../assets/images/hubspotblogs.png'
+import inbound from '../assets/images/inbound.png'
+import globe from '../assets/images/globe.png'
+import chat from '../assets/images/chat.png'
 
 function Section3() {
     return (
@@ -14,25 +20,25 @@ function Section3() {
 
             <div className='sec3table row row-cols-2 row-cols-sm-2 row-cols-md-4 g-3'>
                 <div className='tablechild ps-4 pe-4 pt-3 pb-3 toptab'>
-                    <img src='/src/assets/images/Group.png'/>
+                    <img src={Group}/>
                     <h2 className='pt-3 tch2' >150<sup>+</sup></h2>
                     <p>HubSport user groups</p>
                 </div>
 
                 <div className='tablechild  ps-4 pe-4 pt-3 pb-3 toptab'>
-                    <img src='/src/assets/images/homepage_community_blog 2.png' className='tbimg' />
+                    <img src={hubspotblogs} className='tbimg' />
                     <h2 className='pt-3 tch2'>7M<sup>+</sup></h2>
                     <p>monthly visits</p>
                 </div>
 
                 <div className='tablechild  ps-4 pe-4 pt-3 pb-3 toptab'>
-                    <img src='/src/assets/images/homepage_community_academy 1.png' className='tbimg' />
+                    <img src={hubspotacademy} className='tbimg' />
                     <h2 className='pt-3 tch2'>453K<sup>+</sup></h2>
                     <p>certified professionals</p>
                 </div>
 
                 <div className='tablechild  ps-4 pe-4 pt-3 pb-3 btmborder'>
-                    <img src='/src/assets/images/homepage_community_inbound 1.png' className='tbimg' />
+                    <img src={inbound} className='tbimg' />
                     <h2 className='pt-3 tch2'>70K<sup>+</sup></h2>
                     <p>registered attendes</p>
                 </div>
@@ -40,25 +46,25 @@ function Section3() {
 
             <div className='sec3table row row-cols-2 row-cols-sm-2 row-cols-md-4 g-3'>
                 <div className='tablechild  ps-4 pe-4 pt-3 pb-3 downtab'>
-                    <img src='/src/assets/images/homepage_community_blog 2.png' className='tbimg' />
+                    <img src={hubspotblogs} className='tbimg' />
                     <h2 className='pt-3 tch2'>1,160<sup>+</sup></h2>
                     <p>integrations</p>
                 </div>
 
                 <div className='tablechild  ps-4 pe-4 pt-3 pb-3 downtab'>
-                    <img src='/src/assets/images/homepage_community_globe 1.png'/>
+                    <img src={globe}/>
                     <h2 className='pt-3 tch2'>6<sup>+</sup></h2>
                     <p>languages</p>
                 </div>
 
                 <div className='tablechild ps-4 pe-4 pt-3 pb-3 downtab'>
-                    <img src='/src/assets/images/chat.png'/>
+                    <img src={chat}/>
                     <h2 className='pt-3 tch2'>3.1M<sup>+</sup></h2>
                     <p>social followers</p>
                 </div>
 
                 <div className='tablechild  ps-4 pe-4 pt-3 pb-3 '>
-                    <img src='/src/assets/images/homepage_community_globe 1.png' />
+                    <img src={globe} />
                     <h2 className='pt-3 tch2'>150,000<sup>+</sup></h2>
                     <p>customers</p>
                 </div>

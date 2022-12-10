@@ -1,7 +1,13 @@
+import MarketingHub_Icon  from '../assets/images/MarketingHub_Icon.png';
+import ServiceHub_Icon from '../assets/images/ServiceHub_Icon.png';
+import SalesHub_Icon from '../assets/images/SalesHub_Icon.png';
+import cms_Icon from '../assets/images/cms_Icon.png';
+import OperationsHub_Icon from '../assets/images/OperationsHub_Icon.png';
+
 const contents = [
     {
         id: 1,
-        Img: '/src/assets/images/MarketingHub_icon.png',
+        img: '/src/assets/images/MarketingHub_Icon.png',
         title:"Marketing Hub",
         sup : "TM",
         para: "Marketing software to help you grow traffic, convert more visitors, and run complete inbound marketing campaigns at scale.",
@@ -11,7 +17,7 @@ const contents = [
     },
     {
         id: 2,
-        Img: '/src/assets/images/SalesHub_icon.png',
+        img: '/src/assets/images/SalesHub_Icon.png',
         title:'Sales Hub',
         sup : "®",
         para: "Sales CRM software to help you get deeper insights into prospects, automate the tasks you hate, and close more deals faster.",
@@ -21,7 +27,7 @@ const contents = [
     },
     {
         id: 3,
-        Img: '/src/assets/images/ServiceHub_icon.png',
+        img: '/src/assets/images/ServiceHub_Icon.png',
         title:'Service Hub',
         sup : "TM",
         para: "Customer service software to help you connect with customers, exceed expectations, and turn them into promoters who grow your business.",
@@ -32,7 +38,7 @@ const contents = [
 
     {
         id: 4,
-        Img: '/src/assets/images/cms_icon.png',
+        img:'/src/assets/images/cms_Icon.png',
         title:'CMS Hub',
         sup : "®",
         para: "Content management software that’s flexible for marketers, powerful for developers, and gives customers a personalized, secure experience.",
@@ -43,7 +49,7 @@ const contents = [
    
     {
         id: 5,
-        Img: '/src/assets/images/OperationsHub_icon.png',
+        img: '/src/assets/images/OperationsHub_Icon.png',
         title:'Operations Hub',
         sup : "®",
         para: "Operations software that syncs your apps, cleans and curates customer data, and automates processes - so all your systems and teams work better together.",

@@ -7,6 +7,7 @@ import Cardrow from './Cardrow'
 import Section3 from './Section3'
 import Section4 from './Section4'
 import Footer from './Footer'
+
 function App() {
   return (
     <div>
@@ -15,9 +16,9 @@ function App() {
     <Section1 />
     <Section2 />
     <Cardrow />
-    <Section3 />
+   <Section3 />
     <Section4 />
-    <Footer />
+    <Footer />   
     </div>
   )
 }

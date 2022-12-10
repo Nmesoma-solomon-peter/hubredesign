@@ -5,7 +5,8 @@ import contents from './cardcontent'
 
 const createCard = (content)=>{
     return <Card 
-    img={content.Img}
+    key={content.id}
+    img={content.img}
     title={content.title}
     sup={content.sup}
     para={content.para}
@@ -18,13 +19,13 @@ const createCard = (content)=>{
 function Cardrow() {
     return (
         <div className='container-fluid cardrow' >
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 ps-5 ">
+            <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 cardrowpad ">
             {contents.map(createCard)}
-            {/* <Card img={contents[0].Img} /> */}
-            {/* <Card />
+            {/* <Card img={contents[0].Img} /> 
+             <Card />
             <Card />
             <Card />
-            <Card /> */}
+            <Card />  */}
             </div>
         </div>
     )

@@ -1,4 +1,6 @@
 import React from 'react'
+import logoo from '../assets/images/logoo.png'
+// import logoo from '../assets/photos';
 import './Header.css'
 
 function Header() {
@@ -6,7 +8,7 @@ function Header() {
         <div className='header'>
             <nav class="navbar navbar-expand-lg navbar-light ">
                 <div className="container-fluid">
-                    <img src='/src/assets/images/logo.png' className='logo' alt='logo' />
+                    <img src={logoo} className='logo' alt='logo' />
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>

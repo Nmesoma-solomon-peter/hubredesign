@@ -1,5 +1,13 @@
 import React from 'react'
 import './Footer.css'
+import fb from '../assets/images/fb.png'
+import instagram from '../assets/images/instagram.png'
+import bi_youtube from '../assets/images/bi_youtube.png'
+import twiter from '../assets/images/twiter.png'
+import linkedin from '../assets/images/linkedin.png'
+import m from '../assets/images/m.png'
+import tiktok from '../assets/images/tiktok.png'
+import hublog from '../assets/images/hublog.png'
 
 function Footer() {
     return (
@@ -98,18 +106,18 @@ function Footer() {
             <div className='d-flex mt-4 icongroup'>
                 <div className='iconlf_line'></div>
                 <div>
-                    <img src='src/assets/images/fb.png' className='fticon' />
-                    <img src='/src/assets/images/instagram.png' className='fticon' />
-                    <img src='/src/assets/images/bi_youtube.png' className='fticon' />
-                    <img src='/src/assets/images/twiter.png' className='fticon' />
-                    <img src='/src/assets/images/linkedin.png' className='fticon' />
-                    <img src='/src/assets/images/m.png' className='fticon' />
-                    <img src='/src/assets/images/ic_baseline-tiktok (1).png' className='fticon' />
+                    <img src={fb} className='fticon' />
+                    <img src={instagram} className='fticon' />
+                    <img src={bi_youtube} className='fticon' />
+                    <img src={twiter} className='fticon' />
+                    <img src={linkedin} className='fticon' />
+                    <img src={m} className='fticon' />
+                    <img src={tiktok} className='fticon' />
                 </div>
                 <div></div>
             </div>
             <div className=' mt-5 copysection'>
-                <img src='/src/assets/images/hublog.png' />
+                <img src={hublog} />
 
                 <p>No Copyright
                     2022 cloned redesigned HubSpot website, Inc</p>

@@ -1,6 +1,6 @@
 import React from 'react'
 import './Section1.css'
-
+import section1img from '../assets/images/section1img.png'
 function Section1() {
     return (
         <div className='container-fluid  bg-primary section1'>
@@ -19,7 +19,7 @@ function Section1() {
                 </div>
 
                 <div className='col-md-6 sec1img'>
-                    <img src='/src/assets/images/section1img.png' className='sec1image' alt='section1img'/>
+                    <img src={section1img} className='sec1image' alt='section1img'/>
                 </div>
             </div>
         </div>
