@@ -4,7 +4,7 @@ import './Cardrow.css'
 import contents from './cardcontent'
 import CheckIcon from '@mui/icons-material/Check';
 import './Card.css'
-import MarketingHub_Icon  from '../assets/images/MarketingHub_Icon.png';
+import marketingHub_Icon  from '../assets/images/marketingHub_Icon.png';
 
 
 // const createCard = (content) => {
@@ -32,7 +32,7 @@ function Cardrow() {
             <Card />  */}
                 <div className='kard me-5 mt-5'>
                     <div>
-                        <h3 className='mt-3 ms-3 me-3 introh3'><img src={MarketingHub_Icon} alt={contents[0].title} />{contents[0].title}<sup>{contents[0].sup}</sup></h3>
+                        <h3 className='mt-3 ms-3 me-3 introh3'><img src={marketingHub_Icon} alt={contents[0].title} />{contents[0].title}<sup>{contents[0].sup}</sup></h3>
                         <p className='mt-3 ms-3 me-3 pb-3'>{contents[0].para}</p>
                     </div>
                     <div className='cardb mt-3 ms-3 me-3 mb-3'>
