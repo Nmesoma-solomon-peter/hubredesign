@@ -39,5 +39,7 @@
         text-align: center;
         /* margin: auto; */
     }
-    
+    .section4{
+        box-sizing: border-box;
+    }
 }
