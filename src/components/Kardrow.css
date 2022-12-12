@@ -14,6 +14,7 @@
     .cardrowpad{
             align-items: center;
             justify-content: center;
+            margin: auto;
             box-sizing: border-box;
     }    
 }
