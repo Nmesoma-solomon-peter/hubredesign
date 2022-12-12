@@ -2,11 +2,11 @@ import React from 'react'
 import './Kardrow.css'
 import './Kard.css'
 import CheckIcon from '@mui/icons-material/Check';
-import marketingHub_Icon from '../assets/image/marketingHub_Icon.png'
-import SalesHub_Icon from '../assets/image/SalesHub_Icon.png'
-import ServiceHub_Icon from '../assets/image/ServiceHub_Icon.png'
-import cms_Icon from '../assets/image/cms_Icon.png'
-import OperationsHub_Icon from '../assets/image/OperationsHub_Icon.png'
+import marketingHub_Icon from '/src/assets/image/marketingHub_Icon.png'
+import SalesHub_Icon from '/src/assets/image/SalesHub_Icon.png'
+import ServiceHub_Icon from '/src/assets/image/ServiceHub_Icon.png'
+import cms_Icon from '/src/assets/image/cms_Icon.png'
+import OperationsHub_Icon from '/src/assets/image/OperationsHub_Icon.png'
 import contents from './Kardcontent.js'
 
 function Kardrow() {

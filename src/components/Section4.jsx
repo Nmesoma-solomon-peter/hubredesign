@@ -7,8 +7,8 @@ import soundcloud from '../assets/image/soundcloud.png'
 import ww from '../assets/image/ww.png'
 import momentive from '../assets/image/momentive.png'
 import doordash from '../assets/image/doordash.png'
-import eventbrite from '../assets/image/eventbrite.png'
-import womanhead from '../assets/image/womanhead.png'
+import eventbrite from '/src/assets/image/eventbrite.png'
+import womanhead from '/src/assets/image/womanhead.png'
 
 function Section4() {
     return (
