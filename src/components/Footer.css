@@ -59,4 +59,7 @@
     .firstcol{
         border: none;
     }
+    .footer{
+        padding-bottom: 20px;
+    }
 }
