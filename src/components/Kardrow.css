@@ -9,3 +9,11 @@
 .cardrowpad{
     padding-left: 8%;
 }
+
+@media (max-width:1028px) {
+    .cardrowpad{
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+    }    
+}
