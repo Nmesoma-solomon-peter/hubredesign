@@ -32,7 +32,15 @@
     .sec4__humanimage{
         /* width: 100%; */
         display: block;
-        margin:auto ;
+        margin-left: 5% ;
+        margin-right: 5% ;
+
+    }
+    .sec4-company{
+        /* align-items: center; */
+        /* justify-content: center; */
+        text-align: center;
+        /* margin: auto; */
     }
     
 }

@@ -19,8 +19,8 @@ function Section4() {
                     <p className='sec4p'>customers in over 120 countries growing
                         their businesses with HubSpot</p>
                 </div>
-                <div className='col col-md-7 '>
-                    <div className='d-flex logo__row row row-cols-2 row-cols-sm-2 row-cols-md-4 g-3'>
+                <div className='col col-md-7 sec4-company'>
+                    <div className='d-flex logo__row row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-4 g-3 '>
                         <div>
                             <img src={wwf} alt=' wwf' />
                         </div>
@@ -35,7 +35,7 @@ function Section4() {
                         </div>
                     </div>
 
-                    <div className='d-flex logo__row row row-cols-2 row-cols-sm-2 row-cols-md-4 g-3'>
+                    <div className='d-flex logo__row row row-cols-1 row-cols-sm-1 row-cols-md-2  row-cols-lg-4  g-3'>
                         <div >
                             <img src={soundcloud} alt='soundcloud ' />
                         </div>
