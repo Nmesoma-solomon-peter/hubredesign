@@ -1,11 +1,11 @@
 import React from 'react'
 import './Section3.css'
-import Group from '../assets/images/Group.png'
-import hubspotacademy from '../assets/images/hubspotacademy.png'
-import hubspotblogs from '../assets/images/hubspotblogs.png'
-import inbound from '../assets/images/inbound.png'
-import globe from '../assets/images/globe.png'
-import chat from '../assets/images/chat.png'
+import Group from '../assets/image/Group.png'
+import hubspotacademy from '../assets/image/hubspotacademy.png'
+import hubspotblogs from '../assets/image/hubspotblogs.png'
+import inbound from '../assets/image/inbound.png'
+import globe from '../assets/image/globe.png'
+import chat from '../assets/image/chat.png'
 
 function Section3() {
     return (

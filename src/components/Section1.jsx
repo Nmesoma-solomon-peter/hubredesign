@@ -1,6 +1,6 @@
 import React from 'react'
 import './Section1.css'
-import section1img from '../assets/images/section1img.png'
+import section1img from '../assets/image/section1img.png'
 function Section1() {
     return (
         <div className='container-fluid  bg-primary section1'>

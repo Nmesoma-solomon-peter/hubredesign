@@ -1,13 +1,13 @@
 import React from 'react'
 import './Footer.css'
-import fb from '../assets/images/fb.png'
-import instagram from '../assets/images/instagram.png'
-import bi_youtube from '../assets/images/bi_youtube.png'
-import twiter from '../assets/images/twiter.png'
-import linkedin from '../assets/images/linkedin.png'
-import m from '../assets/images/m.png'
-import tiktok from '../assets/images/tiktok.png'
-import hublog from '../assets/images/hublog.png'
+import fb from '../assets/image/fb.png'
+import instagram from '../assets/image/instagram.png'
+import bi_youtube from '../assets/image/bi_youtube.png'
+import twiter from '../assets/image/twiter.png'
+import linkedin from '../assets/image/linkedin.png'
+import m from '../assets/image/m.png'
+import tiktok from '../assets/image/tiktok.png'
+import hublog from '../assets/image/hublog.png'
 
 function Footer() {
     return (

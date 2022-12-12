@@ -1,5 +1,5 @@
 import React from 'react'
-import logoo from '../assets/images/logoo.png'
+import logoo from '../assets/image/logoo.png'
 // import logoo from '../assets/photos';
 import './Header.css'
 

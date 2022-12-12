@@ -1,14 +1,14 @@
 import React from 'react'
 import './Section4.css'
-import wwf from '../assets/images/wwf.png'
-import trello from '../assets/images/trello.png'
-import reddit from '../assets/images/reddit.png'
-import soundcloud from '../assets/images/soundcloud.png'
-import ww from '../assets/images/ww.png'
-import momentive from '../assets/images/momentive.png'
-import doordash from '../assets/images/doordash.png'
-import eventbrite from '../assets/images/eventbrite.png'
-import womanhead from '../assets/images/womanhead.png'
+import wwf from '../assets/image/wwf.png'
+import trello from '../assets/image/trello.png'
+import reddit from '../assets/image/reddit.png'
+import soundcloud from '../assets/image/soundcloud.png'
+import ww from '../assets/image/ww.png'
+import momentive from '../assets/image/momentive.png'
+import doordash from '../assets/image/doordash.png'
+import eventbrite from '../assets/image/eventbrite.png'
+import womanhead from '../assets/image/womanhead.png'
 
 function Section4() {
     return (
