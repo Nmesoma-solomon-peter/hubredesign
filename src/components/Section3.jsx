@@ -18,7 +18,7 @@ function Section3() {
                 <p>You don’t have to go it alone. Master the inbound methodology and get the most out of your tools with HubSpot’s legendary customer support team and a community of thousands of marketing and sales pros just like you.</p>
             </div>
 
-            <div className='sec3table row row-cols-2 row-cols-sm-2 row-cols-md-4 g-3'>
+            <div className='sec3table row row-cols-1 row-cols-sm-1 row-cols-md-2  row-cols-lg-4 g-3'>
                 <div className='tablechild ps-4 pe-4 pt-3 pb-3 toptab'>
                     <img src={Group}/>
                     <h2 className='pt-3 tch2' >150<sup>+</sup></h2>
