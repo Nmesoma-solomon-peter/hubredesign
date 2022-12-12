@@ -31,10 +31,7 @@
 @media (max-width:1028px) {
     .sec4__humanimage{
         /* width: 100%; */
-        display: block;
-        margin-left: 5% ;
-        margin-right: 5% ;
-
+        margin: auto;
     }
     .sec4-company{
         /* align-items: center; */
