@@ -11,6 +11,9 @@
 }
 
 @media (max-width:1028px) {
+    .cardrow{
+        padding-left: 50px;
+    }
     .cardrowpad{
             align-items: center;
             justify-content: center;
