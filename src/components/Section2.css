@@ -31,7 +31,8 @@
         justify-content: center;
         text-align: left;
         align-items: center;
-        margin: auto;
+        padding-left: 2px;
+        padding-right: 5px;
     }
     .sec2__btn{
         margin-top: 20px;
