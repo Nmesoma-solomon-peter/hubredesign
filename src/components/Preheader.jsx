@@ -5,13 +5,14 @@ import './Preheader.css'
 function Preheader() {
     return (
         <div className='preheader'>
+            {/* <div className="cont-fluid"> */}
             <div className="cont-fluid">
                 <div className='prehead'>
                     <div className='prehead__left'>
                         {/* <LanguageIcon/> */}
-                        <a href='/jjj'>
-                            <p className='dropdownitem m-3 fw-bold'>
-                                <i class="bi bi-globe m-1"></i>
+                        <a href='/jjj' className='me-4'>
+                            <p className='dropdownitem m-3  fw-bold'>
+                                <i class="bi bi-globe me-1"></i>
                                 Englsh
                                 <i class="bi bi-chevron-down m-1"></i>
                             </p>
